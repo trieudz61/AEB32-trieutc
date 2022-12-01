@@ -1,0 +1,55 @@
+.container{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.header{
+    position: relative;
+}
+.name{
+    position: absolute;
+    bottom: 110px;
+    left: 200px;
+    font-size: 30px;
+    font-weight: bolder;
+    color:white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+.Infor{
+    position: absolute;
+    bottom: 80px;
+    left: 200px;
+    font-size: 22px;
+    color:white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+.imgavt{
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    height: 120px;
+     width: auto; 
+     border-radius: 50%
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+}
+.all{
+    display: flex;
+    border: solid;
+    padding: 8px;
+    padding-left: 28px;
+    border-width: 1px;
+    border-color: grey;
+}
+.sting{
+    flex: 0.9;
+    font-weight: bold;
+    color: grey;
+    padding-top: 3px;
+}
+.sting2{
+    color: white;
+    padding: 5px 10px;
+    border-radius: 8px;
+}

@@ -1,0 +1,71 @@
+.main{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    color: aliceblue;
+}
+.all_body{
+    display: flex;
+    background-color: rgb(245, 240, 234);
+    height: 50px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 100px ;
+    border: solid ;
+}
+.content1{
+    flex: 0.2;
+    background-color: rgb(243, 64, 64);
+}
+.value1{
+    flex: 0.16;
+    background-color: rgb(240, 118, 118);
+}
+.content2{
+    flex: 0.2;
+    background-color: rgb(67, 173, 206);
+}
+.value2{
+    flex: 0.4;
+    background-color: rgb(88, 206, 214);
+}
+.content3{
+    flex: 0.2;
+    background-color: rgb(67, 206, 125);
+}
+.value3{
+    flex: 0.56;
+    background-color: rgb(163, 230, 166);
+}
+.content4{
+    flex: 0.2;
+    background-color: rgb(204, 206, 67);
+}
+.value4{
+    flex: 0.24;
+    background-color: rgb(210, 228, 145);
+}
+.content5{
+    flex: 0.2;
+    background-color: rgb(170, 55, 224);
+}
+.value5{
+    flex: 0.36;
+    background-color: rgb(216, 169, 238);
+}
+.content6{
+    flex: 0.2;
+    background-color: rgb(206, 67, 194);
+}
+.value6{
+    flex: 0.64;
+    background-color: rgb(216, 101, 197);
+}
+.content7{
+    flex: 0.2;
+    background-color: rgb(95, 97, 226);
+}
+.value7{
+    flex: 0.296;
+    background-color: rgb(119, 136, 212);
+}
