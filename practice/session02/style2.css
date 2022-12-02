@@ -1,3 +1,6 @@
+body{
+  margin : 0px;
+}
 .header {
   font-size: 100px;
   text-align: center;
@@ -13,6 +16,7 @@
   border-color: black;
   margin-bottom: 10px;
   border-radius: 5px;
+  margin-top: 5px;
 }
 .body {
   display: flex;
@@ -38,7 +42,7 @@
   margin-right: 5px;
   border-radius: 5px;
 }
-.aside {
+._aside {
   flex: 0.4;
   font-size: 100px;
   text-align: center;
