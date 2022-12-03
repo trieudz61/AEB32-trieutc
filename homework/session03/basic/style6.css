@@ -1,0 +1,45 @@
+#navi {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: auto;
+  list-style: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#navi > li {
+  cursor: pointer;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  opacity: 1;
+}
+#HOME{
+    background-color: #4e69a2;
+    float: left;
+    width: 200px;
+}
+#ABOUT{
+    background-color: #af2180;
+    float: left;
+    width: 200px;
+}
+#FEATURE{
+    background-color: #c0de19;
+    float: left;
+    width: 200px;
+}
+#SERVICE{
+    background-color: #21e850;
+    float: left;
+    width: 200px;
+}
+#GALLERY{
+    background-color: #28b1d7;
+    float: left;
+    width: 200px;
+}
+#BLOG{
+    background-color: #e64545;
+    float: left;
+    width: 200px;
+}
