@@ -1,0 +1,32 @@
+.container{
+    justify-content: space-evenly;
+}
+.box{
+    height: 320px;
+    width: 260px;
+    position: relative;
+    margin: 20px;
+}
+
+.box1{
+    background-color: #4267b2;
+    float: left;
+}
+.box2{
+    background-color: #1DA1F2;
+    float: left;
+}
+.box3{
+    background-color: #e36155;
+    float: left;
+}
+.box4{
+    background-color: #EA4335;
+    float: left;
+}
+.infor {
+    color:white;
+    position: absolute;
+    bottom: 5%;
+    left: 12%;
+}
