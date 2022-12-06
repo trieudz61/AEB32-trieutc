@@ -1,0 +1,100 @@
+.main{
+    height: 100%;
+    width: auto;
+    background-color: black;
+}
+.container{
+    height: 100vh;
+    width: 80vh;
+    background-color: rgb(255, 255, 255);
+}
+.base{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5vh;
+}
+.TOP{
+    flex:0.1;
+    display: flex;
+}
+.logo{
+    flex:0.3;
+    background-color: black;
+    position:relative;
+}
+.logo>p{
+    color:aliceblue;
+    font-size: 2.8vh;
+    position: absolute;
+    margin-bottom: 0px;
+    bottom:12%;
+    left: 0%;
+}
+.infor{
+    flex: 0.08;
+    margin-top: 3vh;
+    position: relative;
+}
+.infor h1{
+    position: absolute;
+    bottom: 20%;
+    left: 15%;
+    color: gray;
+    font-size: 6vh;
+}
+.infor p{
+    position: absolute;
+    bottom: 0%;
+    left: 15%;
+    margin-bottom: 0px;
+    color: gray;
+    font-size: 2.5vh;
+}
+.description{
+    flex:0.81;
+    display: flex;
+}
+.frofile{
+    flex: 0.3;
+    width: auto;
+    height: auto;
+    background-color: black;
+    margin-top: 2vh;
+    color: white;
+}
+.NDPEW h3,h5,p{
+    margin-left: 1.5vw;
+}
+
+.CV{
+    flex:0.7;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.18vh;
+    font-size: 60%;
+}
+.job{
+    flex:0.3;
+    display: flex;
+    flex-direction: column;
+}
+.edu{
+    flex:0.3;
+}
+.pro{
+    flex:0.2;
+}
+.per{
+    flex:0.2;
+}
+.job>h3{
+    flex:0.1;
+    color: gray;
+    margin-left: 1.5vh;
+}
+.edu>h3{
+    flex:0.1;
+    color: gray;
+    margin-left: 1.5vh;
+}
