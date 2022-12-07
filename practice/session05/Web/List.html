@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+   <link rel="stylesheet" href="./node_modules/animate.css/animate.min.css">
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <style>
+    table,
+    th,
+    td {
+      border: 1px solid;
+      border-collapse: collapse;
+      height: 30px;
+      text-indent: 2%;
+    }
+    .table_2 th {
+      text-align: center;
+    }
+  </style>
+  <body>
+    <div class="header">
+      <header class="header__top animate__animated animate__jackInTheBox">
+        <h1>The Pulpit Rock</h1>
+        <div class="nav">
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active ">
+                  <a class="nav-link" href="./Home.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="./List.html">LIST</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./Form.html">FORM</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </header>
+    </div>
+    <div class="body">
+      <div class="row">
+        <div class="col-md-3" style="text-align: left">
+          <ul style="margin-top: 3vh; padding-left: 0px; margin-left: 0%">
+            <li>The Drive</li>
+            <li>The Walk</li>
+            <li>The Return</li>
+            <li>The End</li>
+          </ul>
+        </div>
+        <div class="col-md-6" style="margin-top: 6vh">
+          <div class="container">
+            <h2>Table with Bootstrap</h2>
+            <table class="table table-bordered" style="width: 47vw">
+              <thead>
+                <tr>
+                  <th>Firstname</th>
+                  <th>Lastname</th>
+                  <th>Email</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Trieu</td>
+                  <td>Tran</td>
+                  <td>Name@example.com</td>
+                </tr>
+                <tr>
+                  <td>Mary</td>
+                  <td>Moe</td>
+                  <td>mary@example.com</td>
+                </tr>
+                <tr>
+                  <td>July</td>
+                  <td>Dooley</td>
+                  <td>july@example.com</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="col-md-3" style="margin-top: 5vh">
+          <div class="question">
+            <h2>What</h2>
+            <p>
+              The Pulpit Rock is a part of a mountain that looks like a pulpit.
+            </p>
+            <h2>Where?</h2>
+            <p>The Pulpit Rock is in Norway</p>
+            <h2>Price? ?</h2>
+            <p>The walk is free!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="bg-light text-center text-lg-start" style="margin-top: 15vh">
+      <!-- Copyright -->
+      <div
+        class="text-center p-3"
+        style="background-color: rgba(0, 0, 0, 0.2); font-size: 10px"
+      >
+        <p style="margin-top: 1%">
+          This web page is a part of a demonstration of fluid web design made by
+          www.w3schools.com. Resize the browser window to see the content
+          response to the resizing.
+        </p>
+      </div>
+      <!-- Copyright -->
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test Bootstrap</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- CSS only -->
+    <link rel="stylesheet" href="./node_modules/animate.css/animate.min.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+  </head>
+  <body>
+    <div class="header">
+      <header class="header__top animate__animated animate__jackInTheBox">
+        <h1>The Pulpit Rock</h1>
+        <div class="nav">
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link active" href="./Home.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./List.html">LIST</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./Form.html">FORM</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </header>
+    </div>
+    <div class="body">
+      <div class="row">
+        <div class="col-md-3" style="text-align: left">
+          <ul style="margin-top: 3vh; padding-left: 0px; margin-left: 0%">
+            <li>The Drive</li>
+            <li>The Walk</li>
+            <li>The Return</li>
+            <li>The End</li>
+          </ul>
+        </div>
+        <div class="col-md-6" style="margin-top: 6vh">
+          <h1>The Walk</h1>
+          <p style="font-weight: bold">
+            The walk to the Pulpit Rock will take you approximately two hours,
+            give or take an hour depending on the weather conditions and your
+            physical shape.
+          </p>
+          <div
+            id="carouselExampleControls"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="https://a.cdn-hotels.com/gdcs/production152/d996/c45c6d23-25e3-46c9-9ffe-7ca8c4840e54.jpg?impolicy=fcrop&w=1600&h=1066&q=medium"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://a.cdn-hotels.com/gdcs/production152/d996/c45c6d23-25e3-46c9-9ffe-7ca8c4840e54.jpg?impolicy=fcrop&w=1600&h=1066&q=medium"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://a.cdn-hotels.com/gdcs/production152/d996/c45c6d23-25e3-46c9-9ffe-7ca8c4840e54.jpg?impolicy=fcrop&w=1600&h=1066&q=medium"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <!-- <img
+              src="https://a.cdn-hotels.com/gdcs/production152/d996/c45c6d23-25e3-46c9-9ffe-7ca8c4840e54.jpg?impolicy=fcrop&w=1600&h=1066&q=medium"
+              alt=""
+              class="img-thumbnail"
+            /> -->
+        </div>
+        <div class="col-md-3" style="margin-top: 5vh">
+          <div class="question">
+            <h2>What</h2>
+            <p>
+              The Pulpit Rock is a part of a mountain that looks like a pulpit.
+            </p>
+            <h2>Where?</h2>
+            <p>The Pulpit Rock is in Norway</p>
+            <h2>Price? ?</h2>
+            <p>The walk is free!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="bg-light text-center text-lg-start" style="margin-top: 15vh">
+      <!-- Copyright -->
+      <div
+        class="text-center p-3"
+        style="background-color: rgba(0, 0, 0, 0.2); font-size: 10px"
+      >
+        <p style="margin-top: 1%">
+          This web page is a part of a demonstration of fluid web design made by
+          www.w3schools.com. Resize the browser window to see the content
+          response to the resizing.
+        </p>
+      </div>
+      <!-- Copyright -->
+    </footer>
+  </body>
+</html>
