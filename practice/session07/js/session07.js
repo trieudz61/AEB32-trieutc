@@ -4,7 +4,7 @@ function gapDoi() {
   console.log(a * 2);
 }
 //BaiChanLe nè đại ca
-function checkChanle() {
+function checkChanLe() {
   let b = prompt("Nhap so can check : ");
   if (b % 2 === 1) {
     console.log(b + " Day la so le");
@@ -32,7 +32,7 @@ function countDivide() {
   console.log(_input);
 }
 //Bai4
-function hangChuchangdv() {
+function hangChucHangdv() {
   let input = "";
   while (true) {
     input = prompt("Nhập Số có 2 chữ số cần check: ");
