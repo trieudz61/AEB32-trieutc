@@ -1,12 +1,12 @@
 //Bai1
-function Gapdoi(){
+function gapDoi(){
     let a = prompt("Nhap so A : ")
     console.log(a*2)    
 }
 //BaiChanLe nè đại ca
-function CheckChanLe(){
+function checkChanle(){
     let b = prompt("Nhap so can check : ")
-    if(b%2==1){
+    if(b%2===1){
         console.log( b + ' Day la so le')
     }
     else{
@@ -34,7 +34,7 @@ function countDivide(){
     console.log(_input)
 }
 //Bai4
-function HangChucHangDV(){
+function hangChuchangdv(){
     let input=''
     while(true){
         input = prompt("Nhập Số có 2 chữ số cần check: ")
@@ -54,7 +54,7 @@ function checkSoNguyenTo(){
     let input = prompt("Nhập Số cần check: ")
     let temp = 0 
     for (let i = 0 ; i <= Math.floor(input/2);i++){
-        if(input%i==0){
+        if(input%i===0){
             temp++
         }
     }
@@ -66,25 +66,25 @@ function checkSoNguyenTo(){
     }
 }
 //Bai6
-function uocChungLonNhat(){
+function uocChunglonnhat(){
     let a = prompt("Nhập số thứ nhất: ")
     let b = prompt("Nhập số thứ hai: ")
     let temp = []
     let temp2 = []
     for (let i = 0 ; i <= a;i++){
-        if(a%i==0){
+        if(a%i===0){
             temp.push(i)
         }
     }
     for (let i = 0 ; i <= b;i++){
-        if(b%i==0){
+        if(b%i===0){
             temp2.push(i)
         }
     }
     let tempResult=[]
     for(let j = 0; j<=temp.length;j++){
         for(let z = 0; z<=temp2.length;z++){
-            if(temp[j]==temp2[z]){
+            if(temp[j]===temp2[z]){
                 tempResult.push(temp[j])
             }
         }
