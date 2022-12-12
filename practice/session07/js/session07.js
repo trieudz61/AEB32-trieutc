@@ -93,36 +93,98 @@ function uocChunglonnhat() {
   console.log(max);
 }
 //Bai7
-function isUpperCase(myString) { 
-    return (myString === myString.toUpperCase()); 
-  } 
+function isUpperCase(myString) {
+  return myString === myString.toUpperCase();
+}
 function changeText() {
   let strings = prompt("Nhập chuỗi đi bạn yêu: ");
   var character = "";
   let temp = Array.from(strings);
-    for(let i = 0;i<temp.length;i++){
-        if(isUpperCase(temp[i])){
-            character=character+temp[i].toLowerCase()
-        }
-        else{
-            character=character+temp[i].toUpperCase()
-        }
+  for (let i = 0; i < temp.length; i++) {
+    if (isUpperCase(temp[i])) {
+      character = character + temp[i].toLowerCase();
+    } else {
+      character = character + temp[i].toUpperCase();
     }
+  }
   console.log(character);
 }
 //Bai8
-function convertHash(){
-    let strings = prompt("Nhập chuỗi đi bạn yêu: ");
-    let convertString=strings.split(" ")
-    let result = ""
-    for(let i = 0; i<convertString.length;i++){
-        result=result+countString(convertString[i])
+function convertHash() {
+  let strings = prompt("Nhập chuỗi đi bạn yêu: ");
+  let convertString = strings.split(" ");
+  let result = "";
+  for (let i = 0; i < convertString.length; i++) {
+    result = result + countString(convertString[i]);
+  }
+  console.log(result);
+}
+function countString(strings) {
+  let temp = Array.from(strings);
+  return temp.length + " ";
+}
+//Bai9
+function dem() {
+  let data = prompt("Nhập số cần phân tích đi bạn yêu: ");
+  console.log(thuaSoNguyenTo(data));
+  console.log(demSoUoc(data));
+}
+function demSoUoc(input) {
+  let count = null;
+  for (let i = 0; i <= input; i++) {
+    if (input % i === 0) {
+      count++;
     }
-    console.log(result)
+  }
+  return count;
+}
+function thuaSoNguyenTo(input) {
+  let string = "";
+  let data = input;
+  let temp = null;
+  while (true) {
+    temp = data;
+    for (let i = 2; i <= data; i++) {
+      if (data % i == 0) {
+        data = data / i;
+        string = string + i + "*";
+        break;
+      }
+    }
+    if (temp === 1) {
+      break;
+    }
+  }
+  console.log(string.substring(0, string.length - 1));
+}
+//Bai10
+function banXangDao(){
+    let xang = null
+    while(true){
+        xang = parseFloat(prompt("Muốn mua bao nhiêu lít xăng đại ca? chúng tôi chỉ bắn xăng chẵn không thích bán xăng lẻ!"))
+        if(xang==Math.floor(xang)){
+            break
+        }
+        else{
+            alert("Nhập cho đúng không là đứng tại quầy luôn!")
+        }
+    }
+    let giaXang1l=parseFloat(prompt("1 lít bán với giá: "))
+    let giaXang2l=parseFloat(prompt("2 lít bán với giá: "))
+    let cashXang=null
+    if(giaXang1l<(giaXang2l/2)){
+        cashXang = giaXang1l*xang
+    }else{
+        if(xang%2===0){
+            cashXang = toiUu1(xang)*giaXang2l 
+        }
+        else{
+            cashXang = toiUu1(xang)*giaXang2l + giaXang1l
+        }
+    }
+    console.log("Số tiền ít nhất cần trả là: "+ cashXang)
+}
 
+function toiUu1(xang){
+    return parseFloat(Math.floor(xang/2))
 }
-function countString(strings){
-    let temp = Array.from(strings);
-    return temp.length+" "
-}
-convertHash()
