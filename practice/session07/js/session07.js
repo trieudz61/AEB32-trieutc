@@ -20,7 +20,8 @@ function min() {
   let d = prompt("Nhap số thứ tư : ");
   let arr = [a, b, c, d];
   let min = a;
-  for (let i = 1; i < arr.length; i++) {
+  for (let i = 1; i < arr.length; i++)
+  {
     if (min > arr[i]) min = arr[i];
   }
   console.log(min);
