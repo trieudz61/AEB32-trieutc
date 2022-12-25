@@ -22,6 +22,7 @@ const urlParams = new URLSearchParams(window.location.search);
 const id_ = urlParams.get("id");
 let URL = "https://63a06bcf24d74f9fe837c129.mockapi.io/card/" + id_;
 let tempDataCard = "";
+
 const fetchDataCard = async (id_) => {
   const res = await fetch(URL);
   const data = await res.json();

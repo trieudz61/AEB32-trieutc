@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CRUD USER</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body style="display: flex">
+    <div class="sidebar">
+      <div class="toggle">
+        <i class="bx bx-chevron-right"></i>
+      </div>
+      <div class="logo">
+        <img src="../image/logo.png" alt="..." />
+        <h3>CRUD USER</h3>
+      </div>
+      <nav>
+        <div class="nav-title">Management</div>
+        <ul>
+          <li class="nav-item" onclick="window.location='./ShowListUser.html'">
+            <i class="bx bxs-dashboard"></i>
+            <span>List Users</span>
+          </li>
+          <li class="nav-item" onclick="window.location='./AddNewUser.html'">
+            <i class="bx bxs-bar-chart-alt-2"></i>
+            <span>Add New User</span>
+          </li>
+          <li class="nav-item">
+            <i class="bx bxs-wallet"></i>
+            <span>Wallet</span>
+          </li>
+          <li class="nav-item">
+            <i class="bx bxs-bell"></i>
+            <span>Notifications</span>
+          </li>
+          <li class="nav-item">
+            <i class="bx bxs-cog"></i>
+            <span>Settings</span>
+          </li>
+        </ul>
+        <hr />
+        <div class="nav-title">Supports</div>
+        <ul>
+          <li class="nav-item">
+            <i class="bx bxs-help-circle"></i>
+            <span>Get Help</span>
+          </li>
+          <li class="nav-item">
+            <i class="bx bxs-message-dots"></i>
+            <span>Send Feedback</span>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div
+      id="container__DetailUser"
+      class="mainForm"
+      style="display: flex"
+    ></div>
+    <script type="text/javascript" src="../js/script.js"></script>
+    <script src="../js/detailuser.js"></script>
+    <!-- Latest compiled and minified CSS -->
+  </body>
+</html>
