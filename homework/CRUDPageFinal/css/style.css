@@ -167,7 +167,7 @@ body {
   transform: rotateY(180deg);
 }
 .mainForm {
-  margin-left: 7vw;
+  margin-left: 18vw;
   backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(6px);
   background: rgba(182, 181, 181, 0.65);
@@ -234,7 +234,7 @@ body {
   transition: 0.4s ease-in-out;
   border-radius: 16px;
   position: absolute;
-  left: 28%;
+  left: 18%;
   top: 8%;
   height: 450px;
   width: 300px;
@@ -269,7 +269,7 @@ body {
   transition: 0.4s ease-in-out;
   border-radius: 16px;
   position: absolute;
-  left: 28%;
+  left: 38%;
   top: 8%;
   height: 450px;
   width: 300px;
